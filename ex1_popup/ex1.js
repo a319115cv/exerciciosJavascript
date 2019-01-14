@@ -7,7 +7,7 @@
 // preguntamos un dato con prompt() e mostrámolo con alert()
 var dato; //declaramos unha variable para gardar a resposta
 dato = prompt('Cal é o teu nome?');
-alert('Encantada '+ dato);
+alert('Encantad@ '+ dato);
 
 
 // o navegador sabe HTML:
@@ -18,9 +18,9 @@ document.write('Para un salto de liña usamos a etiqueta HTML: <br>');
 document.write('Funciona? Lembramos a raia: <hr>');
 
 // confirm() mostra cadro de diálogo OK ou Cancel:
-var marchamos= confirm('Deixamos este exercio? ');
+var nos vamos= confirm('Deixamos este exercio? ');
 
-if(marchamos)
+if(nos vamos)
 {
 	document.write('<br> Saúdos.... '+ dato);
 } 
